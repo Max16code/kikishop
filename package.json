@@ -1,6 +1,7 @@
 {
   "name": "dkikishop",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongoose": "^8.16.1",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
