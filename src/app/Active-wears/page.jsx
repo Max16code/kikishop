@@ -1,17 +1,11 @@
+import React from 'react'
+import Navbar from '@/components/Navbar'
 
-
-import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import Link from "next/link";
-
-export default function Home() {
+export default function page() {
   return (
-    <div className="w-full flex flex-col items-center mt-4 text-yellow-400">
-      <h1 className="text-2xl font-bold">Welcome to Dkikishop</h1>
-
-      <Navbar />
-
-      <div className="px-6 py-10 w-full">
+    <div>
+     <Navbar />
+<div className="px-6 py-10 w-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Box 1 */}
           <div className="rounded-2xl overflow-hidden h-80">
@@ -97,7 +91,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
-  );
-}
 
+    </div>
+  )
+}
